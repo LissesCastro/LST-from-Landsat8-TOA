@@ -1,9 +1,8 @@
 # Google Earth Engine - Extração de imagens Landsat
 
-### O texto original está disponível no meu [Medium](https://medium.com/@lisses/aprimorando-leituras-urbanas-com-sensoriamento-remoto-de-um-jeito-simples-2733d519cce8), o código em javascript para a realização da extração de NDVI e LST está disponível [no meu repositório](LST-L8-TOA-Calculation.js)
+O texto original está disponível no meu [Medium](https://medium.com/@lisses/aprimorando-leituras-urbanas-com-sensoriamento-remoto-de-um-jeito-simples-2733d519cce8), o código em javascript para a realização da extração de NDVI e LST está disponível [no meu repositório](LST-L8-TOA-Calculation.js)
 
 - [Google Earth Engine - Extração de imagens Landsat](#google-earth-engine---extração-de-imagens-landsat)
-    - [O texto original está disponível no meu Medium, o código em javascript para a realização da extração de NDVI e LST está disponível no meu repositório](#o-texto-original-está-disponível-no-meu-medium-o-código-em-javascript-para-a-realização-da-extração-de-ndvi-e-lst-está-disponível-no-meu-repositório)
   - [0. Situando esse trabalho](#0-situando-esse-trabalho)
   - [1. Criando uma geometria](#1-criando-uma-geometria)
   - [2. Selecionando a coleção de imagens e aplicando os filtros](#2-selecionando-a-coleção-de-imagens-e-aplicando-os-filtros)
