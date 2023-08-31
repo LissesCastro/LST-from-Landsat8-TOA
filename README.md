@@ -26,7 +26,9 @@ Para obter o índice de vegetação vamos utilizar imagens do [Landsat 8](https:
 ## 1. Criando uma geometria
 A primeira parte é simples, mas super importante: vamos criar uma geometria para indicar a região de onde queremos obter as imagens de satélite, essa geometria pode ter qualquer forma e. no nosso caso, é um retângulo marcado bem em cima da cidade de São Paulo, ela também não precisa demarcar o perímetro exato da nossa área de estudo.
 
-![Alt text](post/imagem1.png)
+<p align="center">
+  <img src="https://github.com/LissesCastro/LST-from-Landsat8-TOA/blob/main/post/imagem1.png?raw=true" alt=""/>
+</p>
 
 
 Quando uma geometria é criada, o Google Earth Engine cria automaticamente uma variável com os dados de localização e tamanho da forma, a variável sempre tem o mesmo nome que o indicado para a forma no mapa e fica disponível para visualização no Code Editor.
@@ -97,7 +99,9 @@ Map.addLayer(ndvi)
 
 Se deu tudo certo, agora é hora de ativar a layer no canto superior direito do mapa. É essencial modificar o range dos valores para o mínimo e máximo do NDVI, nesse caso eu coloquei como entre -1 e 1, mas o GEE possibilita modificar o alcance para os valores máximos e mínimos encontrados dentro da foto (que muito provavelmente serão diferentes de -1 e 1)
 
-![Alt text](post/imagem2.png)
+<p align="center">
+  <img src="https://github.com/LissesCastro/LST-from-Landsat8-TOA/blob/main/post/imagem2.png?raw=true" alt=""/>
+</p>
 
 
 Na imagem gerada, as áreas mais brancas têm NDVI menor, enquanto áreas mais escuras tem aumento do índice de vegetação. É possível modificar as cores do mapa e mesmo adicionar novas paletas, essas são algumas que fiz com o mesmo código
